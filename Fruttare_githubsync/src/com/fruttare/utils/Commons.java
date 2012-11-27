@@ -5,7 +5,7 @@ import java.util.Calendar;
 
 public class Commons {
 
-	public final static String OAUTH_CONSUMER = "kifYJh4RMpKJch9avmW7Uw"; //oauth key consumer
+	public final static String OAUTH_CONSUMER = "kifYJh4RMpKJch9avmW7Uw"; //oauth key consumer maushi
 	public final static String OAUTH_SECRET = "SDMq2C1zkzdUEee3FaWavx6kshuyxiUOx23HqtXsY";
 	
 	public final static String ERROR_MESSAGE="Error occured while uploading photo";
