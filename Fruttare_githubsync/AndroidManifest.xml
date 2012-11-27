@@ -1,0 +1,78 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.twitter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/fruttare_app_icon_rounded"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CameraAndFolderActivity"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".CameraScreen"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        <activity
+            android:name=".TwitterCheckActivity"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".FrameMergingActivity"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".AndroidCustomListViewActivity"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape"
+          
+            android:windowSoftInputMode="adjustPan|adjustResize">
+        </activity>
+        <!-- android:windowSoftInputMode="adjustResize" -->
+
+        <activity
+            android:name="com.image.from.gallery.ImageFromGalery"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.image.from.gallery.PreviewImage"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.image.from.gallery.PostOnTwitter"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fruttarebackgroundscreen"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fruttarebackgroundscreen"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/camerabuttonselector"
+            android:onClick="takeImage" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/folderbuttonselector"
+            android:onClick="fromGallery" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="logoutTwitter"
+        android:background="@drawable/logoutbuttonselector"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true">
+    </Button>
+
+</RelativeLayout>
